@@ -1,6 +1,6 @@
 # hook.js
 
-`
+```
 function plus (a, b)
 {
     return a + b;
@@ -10,4 +10,4 @@ plus = hook(plus, (cb, ...args) => {
     return cb(args) + 1;
 })
 console.log(plus(1, 2) == 4) // true
-`
+```
