@@ -14,10 +14,10 @@ function hook(target, replacement)
 {
     const original_function = target;
     return function(...arguments) {
-        const firstArg = (function (_arguments) {
-            return original_function.apply(this, _arguments);
+        const cb = (function (arguments) {
+            return original_function.apply(this, arguments);
         }).bind(this);
-        arguments.unshift(firstArg);
+        arguments.unshift(cb);
         return replacement.apply(this, arguments);
     };
 }
