@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   hook.js                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mafaussu <mafaussu@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mafaussu <mafaussu@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/30 12:00:00 by mafaussu          #+#    #+#             */
 /*   Updated: 2022/06/30 12:42:21 by mafaussu         ###   ########lyon.fr   */
